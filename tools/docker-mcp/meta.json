@@ -1,0 +1,25 @@
+{
+  "id": "docker-mcp",
+  "title": "Docker MCP",
+  "description": "通过MCP进行Docker容器管理和操作",
+  "category": "开发工具",
+  "tags": ["Docker", "容器化", "DevOps"],
+  "installation": {
+    "auto": {
+      "command": "npx docker-mcp-server init"
+    },
+    "manual": {
+      "command": "npx",
+      "args": [
+        "docker-mcp-server",
+        "init"
+      ],
+      "env": {
+        "_placeholder": ""
+      }
+    }
+  },
+  "githubUrl": "https://github.com/QuantGeekDev/docker-mcp",
+  "author": "QuantGeekDev",
+  "createTime": "2024-03-26T15:44:12Z"
+}
