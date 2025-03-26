@@ -1,0 +1,24 @@
+{
+  "id": "perplexity-mcp",
+  "title": "Perplexity MCP",
+  "description": "与Perplexity API交互",
+  "category": "AI助手",
+  "tags": ["AI", "搜索", "问答"],
+  "installation": {
+    "auto": {
+      "command": "npx @mcp/perplexity-server"
+    },
+    "manual": {
+      "command": "npx",
+      "args": [
+        "@mcp/perplexity-server"
+      ],
+      "env": {
+        "PERPLEXITY_API_KEY": "YOUR_API_KEY"
+      }
+    }
+  },
+  "githubUrl": "https://github.com/tanigami/mcp-server-perplexity",
+  "author": "tanigami",
+  "createTime": "2024-03-26T15:44:12Z"
+}
