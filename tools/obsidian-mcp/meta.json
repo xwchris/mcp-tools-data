@@ -1,0 +1,22 @@
+{
+  "id": "obsidian-mcp",
+  "title": "Obsidian MCP",
+  "description": "通过REST API与Obsidian交互",
+  "category": "生产力工具",
+  "tags": ["笔记", "知识管理", "Markdown"],
+  "installation": {
+    "auto": {
+      "command": "npx obsidian-mcp-server"
+    },
+    "manual": {
+      "command": "npx",
+      "args": [
+        "obsidian-mcp-server"
+      ],
+      "env": {}
+    }
+  },
+  "githubUrl": "https://github.com/MarkusPfundstein/mcp-obsidian",
+  "author": "MarkusPfundstein",
+  "createTime": "2024-03-26T15:44:12Z"
+}
