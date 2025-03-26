@@ -1,0 +1,24 @@
+{
+  "id": "jira-mcp",
+  "title": "Jira MCP Server",
+  "description": "通过JQL和API读取Jira数据并执行创建和编辑工单的请求",
+  "category": "生产力工具",
+  "tags": ["项目管理", "任务跟踪", "协作"],
+  "installation": {
+    "auto": {
+      "command": "npx @jira/mcp-server --api-key=YOUR_API_KEY"
+    },
+    "manual": {
+      "command": "npx",
+      "args": [
+        "@jira/mcp-server"
+      ],
+      "env": {
+        "JIRA_API_KEY": "YOUR_API_KEY"
+      }
+    }
+  },
+  "githubUrl": "https://github.com/KS-GEN-AI/jira-mcp-server",
+  "author": "KS-GEN-AI",
+  "createTime": "2024-03-26T15:44:12Z"
+}
