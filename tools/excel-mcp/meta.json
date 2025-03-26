@@ -1,0 +1,22 @@
+{
+  "id": "excel-mcp",
+  "title": "Excel MCP Server",
+  "description": "提供工作簿创建、数据操作、格式化和高级功能（图表、数据透视表、公式）",
+  "category": "数据工具",
+  "tags": ["Excel", "数据分析", "办公"],
+  "installation": {
+    "auto": {
+      "command": "npx excel-mcp-server"
+    },
+    "manual": {
+      "command": "npx",
+      "args": [
+        "excel-mcp-server"
+      ],
+      "env": {}
+    }
+  },
+  "githubUrl": "https://github.com/haris-musa/excel-mcp-server",
+  "author": "haris-musa",
+  "createTime": "2024-03-26T15:44:12Z"
+}
