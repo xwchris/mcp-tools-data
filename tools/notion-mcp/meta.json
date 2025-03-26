@@ -1,0 +1,24 @@
+{
+  "id": "notion-mcp",
+  "title": "Notion MCP",
+  "description": "与Notion API集成，管理个人待办事项列表",
+  "category": "生产力工具",
+  "tags": ["笔记", "任务管理", "协作"],
+  "installation": {
+    "auto": {
+      "command": "npx @notion/mcp-server --api-key=YOUR_API_KEY"
+    },
+    "manual": {
+      "command": "npx",
+      "args": [
+        "@notion/mcp-server"
+      ],
+      "env": {
+        "NOTION_API_KEY": "YOUR_API_KEY"
+      }
+    }
+  },
+  "githubUrl": "https://github.com/danhilse/notion_mcp",
+  "author": "danhilse",
+  "createTime": "2024-03-26T15:44:12Z"
+}
