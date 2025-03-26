@@ -1,0 +1,22 @@
+{
+  "id": "sql-analyzer-mcp",
+  "title": "SQL Analyzer MCP",
+  "description": "使用SQLGlot提供SQL分析、代码检查和方言转换",
+  "category": "数据工具",
+  "tags": ["SQL", "数据库", "分析"],
+  "installation": {
+    "auto": {
+      "command": "npx sql-analyzer-mcp"
+    },
+    "manual": {
+      "command": "npx",
+      "args": [
+        "sql-analyzer-mcp"
+      ],
+      "env": {}
+    }
+  },
+  "githubUrl": "https://github.com/j4c0bs/mcp-server-sql-analyzer",
+  "author": "j4c0bs",
+  "createTime": "2024-03-26T15:44:12Z"
+}
