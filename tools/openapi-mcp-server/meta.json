@@ -1,0 +1,23 @@
+{
+  "id": "openapi-mcp-server",
+  "title": "OpenAPI MCP Server",
+  "description": "使用OpenAPI规范(v3)连接任何HTTP/REST API服务器",
+  "category": "开发工具",
+  "tags": ["API", "OpenAPI", "REST"],
+  "installation": {
+    "auto": {
+      "command": "npx openapi-mcp-server init"
+    },
+    "manual": {
+      "command": "npx",
+      "args": [
+        "openapi-mcp-server",
+        "init"
+      ],
+      "env": {}
+    }
+  },
+  "githubUrl": "https://github.com/snaggle-ai/openapi-mcp-server",
+  "author": "snaggle-ai",
+  "createTime": "2024-03-26T15:44:12Z"
+}
