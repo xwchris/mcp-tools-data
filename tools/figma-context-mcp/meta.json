@@ -1,0 +1,25 @@
+{
+  "id": "figma-context-mcp",
+  "title": "Figma Context MCP",
+  "description": "为代码助手提供直接访问Figma数据的能力，帮助实现一次性设计实现",
+  "category": "开发工具",
+  "tags": ["设计", "开发", "Figma"],
+  "installation": {
+    "auto": {
+      "command": "npx figma-developer-mcp --figma-api-key=<your-figma-api-key>"
+    },
+    "manual": {
+      "command": "npx",
+      "args": [
+        "figma-developer-mcp",
+        "--figma-api-key=YOUR_API_KEY"
+      ],
+      "env": {
+        "FIGMA_API_KEY": "YOUR_API_KEY"
+      }
+    }
+  },
+  "githubUrl": "https://github.com/GLips/Figma-Context-MCP",
+  "author": "GLips",
+  "createTime": "2024-03-26T15:44:12Z"
+}
