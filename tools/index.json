@@ -1,0 +1,34 @@
+{
+  "categories": {
+    "开发工具": {
+      "id": "dev-tools",
+      "tools": [
+        "figma-context-mcp",
+        "docker-mcp",
+        "openapi-mcp-server"
+      ]
+    },
+    "AI助手": {
+      "id": "ai-assistants",
+      "tools": [
+        "openai-mcp",
+        "perplexity-mcp"
+      ]
+    },
+    "生产力工具": {
+      "id": "productivity",
+      "tools": [
+        "notion-mcp",
+        "obsidian-mcp",
+        "jira-mcp"
+      ]
+    },
+    "数据工具": {
+      "id": "data-tools",
+      "tools": [
+        "excel-mcp",
+        "sql-analyzer-mcp"
+      ]
+    }
+  }
+}
