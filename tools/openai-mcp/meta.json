@@ -1,0 +1,25 @@
+{
+  "id": "openai-mcp",
+  "title": "OpenAI MCP",
+  "description": "与OpenAI的最智能模型进行对话",
+  "category": "AI助手",
+  "tags": ["AI", "ChatGPT", "对话"],
+  "installation": {
+    "auto": {
+      "command": "npx @mzxrai/mcp-openai@latest"
+    },
+    "manual": {
+      "command": "npx",
+      "args": [
+        "-y",
+        "@mzxrai/mcp-openai@latest"
+      ],
+      "env": {
+        "OPENAI_API_KEY": "YOUR_API_KEY"
+      }
+    }
+  },
+  "githubUrl": "https://github.com/mzxrai/mcp-openai",
+  "author": "mzxrai",
+  "createTime": "2024-03-26T15:44:12Z"
+}
